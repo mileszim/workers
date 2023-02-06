@@ -1,0 +1,11 @@
+name = "ip-zim-dev"
+main = "./.output/server/index.mjs"
+compatibility_date = "2023-02-06"
+workers_dev = true
+node_compat = true
+
+[site]
+bucket = ".output/public"
+
+# [secrets]
+#  - IPINFO_TOKEN

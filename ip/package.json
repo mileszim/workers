@@ -1,0 +1,20 @@
+{
+  "name": "ip",
+  "version": "1.0.0",
+  "description": "IP info API",
+  "main": "./.output/server/index.mjs",
+  "private": true,
+  "scripts": {
+    "dev": "npx nitropack dev",
+    "build": "npx nitropack build",
+    "preview": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "nitropack": "latest",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230115.0",
+    "wrangler": "2.9.0"
+  }
+}
