@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "npx nitropack dev",
     "build": "npx nitropack build",
-    "preview": "node .output/server/index.mjs"
+    "preview": "node .output/server/index.mjs",
+    "deploy": "pnpm build && op run wrangler publish"
   },
   "dependencies": {
     "nitropack": "latest",

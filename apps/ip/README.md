@@ -1,5 +1,7 @@
 # ip
 
+[cloudflare workers](../../)
+
 Worker for simple IP info API requests.
 
 ## Usage
